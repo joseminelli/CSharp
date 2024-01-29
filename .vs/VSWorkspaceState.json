@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Exercicios",
-    "\\Exercicios\\ConsoleApp1"
+    "\\Exercicios\\First project",
+    "\\Exercicios\\First project\\ConsoleApp1",
+    "\\Exercicios\\First project\\ConsoleApp1\\Properties"
   ],
-  "SelectedNode": "\\Exercicios\\ConsoleApp1\\Program.cs",
+  "SelectedNode": "\\Exercicios\\First project\\ConsoleApp1\\Properties",
   "PreviewInSolutionExplorer": false
 }
