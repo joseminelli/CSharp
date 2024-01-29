@@ -4,17 +4,13 @@
 
 Este repositório foi criado para documentar meu progresso enquanto aprendo C#. Aqui você encontrará:
 
-- **Projetos:** Implementações práticas de conceitos aprendidos.
-- **Exercícios:** Desafios e exercícios para consolidar o conhecimento.
-
-## Organização do Repositório
-
-```
-/CSharpLearning
-  ├── /Projetos
-  ├── /Exercicios
-  └── README.md
-```
+- [**Projetos**](/Projetos)  Implementações práticas de conceitos aprendidos. <br>
+    ‎ ‎ ‎   ╎<br>
+     ‎ ‎ ‎  ╰-- [Pasta1...](/Projetos/Pasta1)<br>
+  
+- [**Exercícios**](/Exercicios)  Desafios e exercícios do curso. <br>
+    ‎ ‎ ‎   ╎<br>
+     ‎ ‎ ‎  ╰-- [Pasta1...](/Exercicios/Pasta1)<br>
 
 ## Como Navegar
 
