@@ -6,11 +6,11 @@ Este repositório foi criado para documentar meu progresso enquanto aprendo C#. 
 
 - [**Projetos**](/Projetos)  Implementações práticas de conceitos aprendidos. <br>
     ‎ ‎ ‎   ╎<br>
-     ‎ ‎ ‎  ╰-- [Pasta1...](/FirstProject/First%20project)<br>
+     ‎ ‎ ‎  ╰-- [Pasta1...](/Projetos/)<br>
   
 - [**Exercícios**](/Exercicios)  Desafios e exercícios do curso. <br>
     ‎ ‎ ‎   ╎<br>
-     ‎ ‎ ‎  ╰-- [Pasta1...](/Exercicios/Pasta1)<br>
+     ‎ ‎ ‎  ╰-- [First Project](/Exercicios/First%20project)<br>
 
 ## Como Navegar
 
