@@ -1,13 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
+    
     internal class Program
     {
+        public static void ColorText(string texto, string cor)
+        {
+            // tenta converter a string 'cor' pra um valor do enum ConsoleColor
+            // o parâmetro 'true' indica que a conversão é insensível a maiúsculas/minúsculas
+            // a variável 'consoleColor' vai ser usada para armazenar o resultado da conversão com o 'out' definindo a saída do resultado.
+            if (!Enum.TryParse<ConsoleColor>(cor, true, out ConsoleColor consoleColor))
+            {
+                // lança uma exceção indicando que a cor é inválida se a conversão falhar
+                throw new ArgumentException("Cor inválida", nameof(cor));
+            }
+
+            Console.ForegroundColor = consoleColor;
+
+            Console.WriteLine(texto);
+
+            // volta a cor original do console
+            Console.ResetColor();
+        }
 
         static void Encerrar(string texto = null)
         {
@@ -27,13 +42,13 @@ namespace ConsoleApp1
                 Console.WriteLine($"Erro: {ex.Message}");
             }
 
-            Console.ReadKey(); 
+            Console.ReadKey();
         }
 
-
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("=== Menu === \n 1 - Cadastrar \n 2 - Listar \n 3 - Sair");
+            ColorText("Hello, World!", "Magenta");
+
             char opcao;
 
             do
@@ -60,6 +75,5 @@ namespace ConsoleApp1
 
             Encerrar();
         }
-
     }
 }
