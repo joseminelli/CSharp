@@ -10,7 +10,7 @@ Este repositório foi criado para documentar meu progresso enquanto aprendo C#. 
   
 - [**Exercícios**](/Exercicios)  Desafios e exercícios do curso. <br>
     ‎ ‎ ‎   ╎<br>
-     ‎ ‎ ‎  ╰-- [First Project](/Exercicios/Console%20Color%20Test)<br>
+     ‎ ‎ ‎  ╰-- [Console Color Test](/Exercicios/Console%20Color%20Test)<br>
 
 ## Como Navegar
 
