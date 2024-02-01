@@ -47,7 +47,7 @@ namespace ConsoleApp1
 
         static void Main()
         {
-            ColorText("Hello, World!", "Magenta");
+            ColorText(" ==== MENU ==== \n 1 - Cadastrar \n 2 - Listar \n 3 - Sair", "Yellow");
 
             char opcao;
 
@@ -65,7 +65,7 @@ namespace ConsoleApp1
                         Console.WriteLine("Listar");
                         break;
                     case '3':
-                        Console.WriteLine("Sair");
+                        ColorText("Saindo...", "Red");
                         break;
                     default:
                         Console.WriteLine("Opção inválida");
