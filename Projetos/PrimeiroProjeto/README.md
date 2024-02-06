@@ -1,31 +1,11 @@
-# Aplicação Console com Cores Personalizadas
+# Projeto de Cadastro de Usuário
 
-Este é um exemplo de código que utiliza a função `ColorText` para imprimir texto colorido no console. A função aceita uma string representando o nome da cor, tanto em maiúsculas quanto em minúsculas, e utiliza a enumeração `ConsoleColor` para configurar a cor do texto.
+Este é um projeto simples de cadastro de usuário em C# que coleta algumas informações básicas do usuário, como nome, idade, endereço e gênero, e as exibe de volta ao usuário.
 
-## Função ColorText
+## Funções Adicionais
 
-A função `ColorText` está localizada no início do código. Aqui está um resumo de como ela funciona:
+O projeto também inclui duas funções adicionais:
 
-```csharp
-public static void ColorText(string texto, string cor)
-{
-    // Tenta converter a string 'cor' para um valor do enum ConsoleColor.
-    // O parâmetro 'true' indica que a conversão é insensível a maiúsculas/minúsculas.
-    // A variável 'consoleColor' será usada para armazenar o resultado da conversão com o 'out' definindo a saída do resultado.
-    if (!Enum.TryParse<ConsoleColor>(cor, true, out ConsoleColor consoleColor))
-    {
-        // Lança uma exceção indicando que a cor é inválida se a conversão falhar.
-        throw new ArgumentException("Cor inválida", nameof(cor));
-    }
+- **Encerrar:** Uma função que permite encerrar o programa. Caso um texto seja fornecido, ele será exibido antes de encerrar o programa.
 
-    Console.ForegroundColor = consoleColor;
-
-    Console.WriteLine(texto);
-
-    // Volta a cor original do console.
-    Console.ResetColor();
-
-    // Exemplo de uso:
-    ColorText("Hello World! Esta mensagem está em magenta.", "Magenta");
-}
-```
+- **Delay:** Uma função que causa um atraso no programa, útil para simular processos de espera.
