@@ -1,6 +1,6 @@
 # Projeto de Cadastro de Usuário
 
-Este é um projeto simples de cadastro de usuário em C# que coleta algumas informações básicas do usuário, como nome, idade, endereço e gênero, e as exibe de volta ao usuário.
+Este é um projeto simples de cadastro de usuário que coleta algumas informações básicas do usuário, como nome, idade, endereço e gênero, e as exibe de volta ao usuário.
 
 ## Funções Adicionais
 
