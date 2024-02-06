@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Exercicios",
+    "\\Exercicios\\Console Color Test",
+    "\\Projetos",
+    "\\Projetos\\PrimeiroProjeto",
+    "\\Projetos\\PrimeiroProjeto\\Arquivos"
   ],
+  "SelectedNode": "\\Projetos\\PrimeiroProjeto\\ConsoleApp1.sln",
   "PreviewInSolutionExplorer": false
 }
