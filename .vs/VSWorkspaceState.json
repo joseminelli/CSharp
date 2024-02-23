@@ -3,10 +3,14 @@
     "",
     "\\Exercicios",
     "\\Exercicios\\Console Color Test",
+    "\\Exercicios\\Console Color Test\\ConsoleApp1",
     "\\Projetos",
     "\\Projetos\\PrimeiroProjeto",
-    "\\Projetos\\PrimeiroProjeto\\Arquivos"
+    "\\Projetos\\PrimeiroProjeto\\Arquivos",
+    "\\Projetos\\PrimeiroProjeto\\Arquivos\\Properties",
+    "\\Projetos\\QR_Code_Generator",
+    "\\Projetos\\QR_Code_Generator\\Properties"
   ],
-  "SelectedNode": "\\Projetos\\PrimeiroProjeto\\ConsoleApp1.sln",
+  "SelectedNode": "\\Projetos\\PrimeiroProjeto\\Arquivos\\Program1.cs",
   "PreviewInSolutionExplorer": false
 }
