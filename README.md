@@ -7,6 +7,8 @@ Este repositório foi criado para documentar meu progresso enquanto aprendo C#. 
 - [**Projetos**](/Projetos)  Implementações práticas de conceitos aprendidos. <br>
     ‎ ‎ ‎   ╎<br>
      ‎ ‎ ‎  ╰-- [Primeiro Projeto](/Projetos/PrimeiroProjeto)<br>
+    ‎ ‎ ‎   ╎<br>
+     ‎ ‎ ‎  ╰-- [Gerador de QR code](/Projetos/QRCode_Generator)<br>
   
 - [**Exercícios**](/Exercicios)  Desafios e exercícios do curso. <br>
     ‎ ‎ ‎   ╎<br>
