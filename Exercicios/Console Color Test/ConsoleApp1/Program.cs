@@ -50,7 +50,6 @@ namespace ConsoleApp1
             ColorText(" ==== MENU ==== \n 1 - Cadastrar \n 2 - Listar \n 3 - Sair", "Yellow");
 
             char opcao;
-
             do
             {
                 Console.Write("\n Digite a opção desejada: ");
