@@ -4,8 +4,8 @@ Este é um aplicativo simples para gerar QR codes desenvolvido em C# com Windows
 
 ## Demonstração
 
-<p>
-    <img src="https://cdn.discordapp.com/attachments/933499827638124575/1210661057912111174/Demo.png?ex=65eb5ef9&is=65d8e9f9&hm=3659ae8de9178da357a48d37fd819c850dca028dba9a58a0163d00adb0929ba8&" alt="Descrição da imagem" width="300px" height="auto">
+<p align="center">
+    <img src="https://media.discordapp.net/attachments/933499827638124575/1225506701134794803/Demo.png?ex=6621610e&is=660eec0e&hm=0b9c9e967711b7749b31322c6a6a682df616586ab9f50d4da30386434bb375a7&=&format=webp&quality=lossless" alt="Descrição da imagem" width="300px" height="auto">
 </p>
 
 
